@@ -22,7 +22,9 @@ public class TimeOfDay {
 	}
 	/**
 	 * @pre | 0<= hour && hour <24
+	 * @mutates | this
 	 * @post | getHours() == hour
+	 * @post | getMinutes() == old(getMinutes())
 	 */
 	public void setHours(int hour) {
 		hours = hour;
@@ -30,8 +32,9 @@ public class TimeOfDay {
 	 /**
 	 *
 	 * @pre | 0<= minute && minute <60
-	 * 
+	 * @mutates | this
 	 * @post | getMinutes() == minute
+	 * @post | getHours() == old(getHours())
 	  */
 	public void setMinutes(int minute) {
 		minutes = minute;
