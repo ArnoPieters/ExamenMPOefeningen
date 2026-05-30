@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>examen intlist</name>
+=======
+	<name>examen timeofday</name>
+>>>>>>> branch 'master' of https://github.com/ArnoPieters/ExamenMPOefeningen.git
 	<comment></comment>
 	<projects>
 	</projects>
