@@ -37,7 +37,7 @@ public class IntList {
 	
 	/**
 	 * @pre | 0<=index && index<getLength()
-	 * @inspects | this
+	 * @inspects |  this
 	 * @post | result == toArray()[index]
 	 */
 	public int getAt(int index) {
